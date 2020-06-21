@@ -1,0 +1,23 @@
+{
+  "name": "aula_jquery_ajax",
+  "version": "1.0.0",
+  "description": "Introdução ao jquery e ajax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mitologicas/aula_jquery_ajax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mitologicas/aula_jquery_ajax/issues"
+  },
+  "homepage": "https://github.com/Mitologicas/aula_jquery_ajax#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}

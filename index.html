@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Minha Página</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:indigo;">
+      <a class="navbar-brand text-white" href="#">Consulta CEP</a>
+             <form class="form-inline my-2 my-lg-0">
+          <input
+            id ="cep"
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="CEP"
+          />
+          <button class="btn my-2 my-sm-0" style="background-color:#DAA520	;" type="button" onclick="consultaCep()">
+            Buscar
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container cep" style="margin-top: 20px;">
+      <div class="row">
+        <h3>CEP</h3>
+
+      </div>
+      <div class="row">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>Logradouro</td>
+              <td id="logradouro"></td>
+            </tr>
+            <tr>
+              <td>Complemento</td>
+              <td id="complemento"></td>
+            </tr>
+            <tr>
+              <td>Bairro</td>
+              <td id="bairro"></td>
+            </tr>
+            <tr>
+              <td>Localidade</td>
+              <td id="localidade"></td>
+            </tr>
+            <tr>
+              <td>UF</td>
+              <td id="uf"></td>
+            </tr>
+            
+          </tbody>
+      </div>
+    </div>
+    <!-- <input id="cep" type="text" />
+    <p id="logradouro"></p>
+    <p id="bairro"></p>
+    <p id="cidade"></p>
+    <p id="uf"></p>
+    <p id="complemento"></p>
+    <button type="button" onclick="consultaCep()">Clique aqui</button> -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
